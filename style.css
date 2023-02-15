@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Poppins', sans-serif,Arial, Helvetica, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    scroll-behavior: smooth !important;
+   
+    
+    
+
+}
+header img{
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    object-fit: cover;
+    object-position: center;
+    outline: none;
+    border: none;
+   
+
+   
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+   
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    background: linear-gradient(to right,#3c6f94,#211a60ab,#fff);
+   
+    
+    
+    }
+
+header .logo{
+    position: relative;
+   
+}
+
+header ul{
+    position: relative;
+    display: flex !important;
+    scroll-behavior: smooth;
+   
+}
+
+header ul li{
+    display: inline-block;
+   
+    list-style: none;
+    scroll-behavior: smooth;
+  
+}
+header ul li a {
+   text-decoration: none;
+    color: #1D1D1D;
+    font-weight: 400;
+    margin-left: 100px;
+    font-size: 1.2em;
+    scroll-behavior: smooth;
+    font-weight: 600;
+    padding-right: 0px;
+    
+}
+
+.man{
+    width: 300px;
+    height: auto;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+   
+    
+}
+
+.content .textbox{
+    position: relative;
+    max-width: 800px;
+    color: #1D1D1D;
+    
+}
+
+.content .textbox h2{
+    color: #1D1D1D;
+    font-size: 1.6em;
+    line-height: 2em;
+    font-weight: 500;
+    z-index: 100;
+    margin-top: 5px;
+     
+}
+
+.content .textbox h2 span{
+    color:  #0f0947;
+    font-size: 3em;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif !important;
+    text-shadow: -1px -2px 3px rgba(255,255,255,0.64);
+    z-index: 1000000;
+    
+}
+
+.content .textbox p{
+    color: #1D1D1D;
+}
+
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background:linear-gradient(to left,#3c6f94,#75bff5) ;
+    text-decoration: none;
+    color: #1D1D1D;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.95;
+    font-size: 18px;
+}
+
+.content .imgbox{
+
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 10px;
+ 
+}
+
+.content .imgbox img{
+
+border-radius: 30px;   
+opacity: 0.9;
+clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.content .imgbox span{
+    color: white;
+    padding-top: 20%;
+    font-size: 30px;
+    padding-left: 0px;
+    margin-left: -40px;
+    transition: 0.3s;
+}
+
+.content .imgbox span:hover{
+    transform: scale(1.2);
+    color: azure;
+}
+
+.sci1{
+    display: none;
+}
+
+.sci #linkedin{
+    width: 40px;
+    height: 40px;
+}
+.sci #insta{
+    width: 40px;
+    height: 40px;
+}
+.sci #fb{
+    width: 40px;
+    height: 40px;
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    margin: 5px 0px;
+  
+    transition: 0.5s;
+
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,#0A0442,#75bff5) ;
+   clip-path: circle(600px at right 800px);
+    
+}
+
+.title a:hover{
+    border: 1px solid #1D1D1D;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1D1D1D;
+    width: 200px;
+    height: 80px;
+    padding: 5px;
+    white-space: nowrap;
+    
+    /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
+    scroll-behavior: smooth;
+ 
+}
+
+
+.content .textbox a:hover{
+            opacity: 1;
+}
+
+.sci li a:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+.founder{
+    width: 100%;
+    min-height: 10vh;
+    padding: 100px;
+
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px;
+    display: flex;
+    
+    background-color: #fff;
+    flex-direction: column;
+}
+
+
+.founder{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+   
+}
+.founder h2{
+font-size: 30px;
+color: #1D1D1D;
+
+  }
+
+.founder h2:hover{
+    color:  #0A0442;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.founder img{
+    height: 300px;
+    width: 250px;
+   display: block;
+   box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+   margin: 0 auto;
+   transition: 0.5s;
+   margin-bottom: 20px;
+   border-radius: 30px;
+ 
+   
+}
+
+.founder img:hover{
+    transform: scale(1.2);
+    margin-bottom: 35px;
+    
+}
+
+.exploreus,.services,.reachus{
+    display: flex;
+    padding: 100px;
+    width: 100%;
+    flex-direction: column;
+    
+    mix-blend-mode: hard-light;
+
+
+}
+.exploreus h3,.services h3,.reachus h3{
+   display: inline-block;
+   margin: 0 auto;
+   padding-bottom: 20px;
+   font-size: 18px;
+    
+}
+
+
+.reachus ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #1D1D1D;
+   
+    
+
+}
+.reachus ul{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.gmail{
+text-decoration: none;
+
+}
+
+.reachus ul li a{
+    text-decoration: none;
+    color: white;
+    user-select: all;
+}
+
+.bg{
+background:linear-gradient(to top,#0A0442,#75bff5,#3c6f94)
+
+;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    padding-bottom: 50px;
+    padding-right: 50px;
+    color: whitesmoke;
+    font-size: 18px;
+  
+}
+
+.reachus ul li #gmail img {
+    width: 50px;
+    height: 50px;
+}
+
+.exploreus h3,.services h3, .reachus h3{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    padding: 14px 20px;
+    background:linear-gradient(to right,#fff,#3c6f94,#294050) ;
+    text-decoration: none;
+    color: #1D1D1D;
+    border-radius: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    font-size: 18px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.exploreus h3:hover,.services h3:hover,.reachus h3:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------media query----------------------- */
+
+@media(max-width:1415px){
+
+    .content .textbox h2 span{
+        font-size: 2.8em;
+       
+    }
+}
+
+
+@media(max-width:1165px){
+
+    .content .textbox h2 span{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:1106px){
+    .content .textbox h2 span{
+         font-size: 2.2em;
+     }
+
+     .content .imgbox span:hover{
+      
+        font-size: 20px;
+    }
+
+     
+}
+
+@media (max-width:1094px){
+   .content .textbox h2 span{
+        font-size: 2em;
+        
+    }
+
+    .content .imgbox span{
+        color: white;
+        padding-top: 20%;
+        font-size: 22px;
+        padding-left: 0px;
+        margin-left: -30px;
+       
+       
+    }
+    
+    .content .imgbox span:hover{
+        
+        color: azure;
+        font-size: 22px;
+    }
+
+    .sci{
+        padding-bottom: 90px;
+    }
+
+    header{
+        height: 100px;
+    }
+    
+    .exploreus h3,.services h3, .reachus h3{
+      
+        padding: 10px 10px;
+        border-radius: 40px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        opacity: 0.9;
+        font-size: 18px;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+
+} 
+
+@media (max-width:1005px){
+
+    .content .imgbox img{
+
+     display: none;
+     
+    }
+    .content .imgbox span{
+
+        margin-left: 10px;
+        
+       }
+
+       .content .textbox {
+        margin-top: -120px;
+
+       }
+}
+
+@media(max-width:900px){
+    .content .imgbox span{
+        display: none;
+    }
+
+     .hide{
+     display: none !important;
+     
+       
+    }
+}
+
+@media(max-width:805px){
+    .hide1{
+        display: none !important;
+        
+          
+       }
+
+       ul li  img{
+        display: none;
+       }
+
+       .reachus ul li{
+        background:none;
+        color: black;
+        font-weight: 800;
+       }
+
+       .exploreus h3,.services h3, .reachus h3{
+      
+        padding: 7px 7px;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        opacity: 0.9;
+        font-size: 16px;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+    .founder img{
+        margin-bottom: 5px;
+    }
+
+    .reachus h3{
+        margin-top: 0px;
+    }
+
+    .content .textbox{
+        margin-top: 0px;
+    }
+
+
+}
+
+@media(max-width:620px){
+    .content .textbox a{
+        
+        margin-top: 20px;
+        padding: 4px 10px;
+      
+        border-radius: 80px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        opacity: 1;
+        font-size: 17px;
+    }
+
+    .circle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left,#0A0442,#75bff5) ;
+       clip-path: circle(500px at right 900px);
+        
+    }
+}
+
+@media(max-width:596px){
+    .content .textbox h2 span{
+        color:  #0f0947;
+        font-size: 1.8em;
+        font-weight: 800;
+      
+        
+    }
+
+    .content .textbox h2{
+        color: #1D1D1D;
+        font-size: 1.3em;
+        font-weight: 700;
+}
+.content .textbox p{
+    font-size: 14px;
+}
+
+
+}
+
+@media(max-width:517px){
+
+    .content .textbox h2 span{
+        color:  #0f0947;
+        font-size: 1.8em;
+        font-weight: 800;
+      
+        
+    }
+
+    .content .textbox h2{
+        color: #1D1D1D;
+        font-size: 1em;
+        font-weight: 700;
+}
+
+}
+
+
+@media(max-width:510px){
+    .hide2{
+        display: none !important;
+        
+          
+       }
+}
+
+
+
+@media(max-width:490px){
+    header ul li a {    
+        margin-left: 50px !important;
+    }
+
+    .content {
+        
+        display: block;
+      }
+
+      .content .textbox h2{
+        color: #1D1D1D;
+        font-size: 1.1em;
+        font-weight: 700;
+}
+  
+
+    .content .textbox h2 span{
+        font-size: 2.4em;
+    }
+
+    .content .textbox p{
+        font-size: 16px;
+    }
+
+    .reachus ul li {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    header a {
+        margin-left: -80px !important;
+        padding-left: 0 !important;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:470px){
+    header ul li a {
+        
+        display: none;
+    }
+
+    .content {
+        
+      display: block;
+    }
+
+    .content .textbox h2 span{
+        font-size: 2.4em;
+    }
+    .content .textbox p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media(max-width:470px){
+
+    .content .textbox h2{
+        color: #1D1D1D;
+        font-size: 16px;
+        font-weight: 700;
+}
+
+.footer{
+    text-align: center;
+}
+  
+}
+
+
+@media(max-width:422px){
+    .content .textbox h2 span{
+       
+        font-size: 2.2em;
+
+}
+
+.founder img{
+    margin: 0 auto;
+
+}
+
+.founder h2{
+    font-size: 25px; 
+}
+
+.founder h2:hover{
+    font-size: 28px; 
+}
+
+
+}
+
+
+@media(max-width:404px){
+    .content .textbox h2 span{
+       
+        font-size: 2em;
+
+}
+
+
+}
+
+
+@media(max-width:396px){
+    .reachus ul li {
+        font-size: 22px;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}
