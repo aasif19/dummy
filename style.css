@@ -415,6 +415,10 @@ background:linear-gradient(to top,#0A0442,#75bff5,#3c6f94)
     display: none !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* ----------------------------------------------vertical scroll----------------------- */
 
