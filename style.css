@@ -460,7 +460,7 @@ html{
     gap: 35px;
 }
 
-#form-submit,#reset{
+#form-submit,button#reset{
     width: 100px;
     height: 30px;
     border-radius: 20px;
