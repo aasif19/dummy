@@ -455,7 +455,12 @@ html{
     margin: 0;
 }
 
-#form-submit{
+.same-row{
+    display: flex;
+    gap: 35px;
+}
+
+#form-submit,#reset{
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -466,6 +471,8 @@ html{
     text-decoration: none;
     border: none;
     font-weight: 700;
+    display: inline-block !important;
+    text-transform: capitalize;
 }
 
 form h2{
