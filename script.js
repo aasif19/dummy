@@ -9,6 +9,17 @@ mobile.addEventListener("click", function check(){
     }
 })
 
+let submit=document.getElementById("#form-submit");
+
+submit.addEventListener("click",function messages(){
+    alert("Got your mail. We will reach you soon :)")
+})
+
+function resetform(){
+    document.getElementById("reset").reset();
+}
+
+
 
 // let display=document.getElementById("form-submit");
 // display.addEventListener("click",function messages(){
